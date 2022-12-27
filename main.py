@@ -10,7 +10,7 @@ while True:
     
     
     # Frame Cropping
-    cv2.rectangle(img,(700,100),(1100,500),(0,255,0),0)
+    cv2.rectangle(img,(20,20),(400,300),(0,255,0),0)
     crop_image= img[20:300,20:400]
     
     # TODO: Grey Filter (pass crop_image)
